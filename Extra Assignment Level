@@ -1,0 +1,326 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "f35c15e8-1d57-4c80-a6a6-e8328040f007",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hope AI\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hope AI\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "9f1ad09a-d197-4147-b7b0-d417584a6ab7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your institute name?: hope ai\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=(input(\"enter your institute name?:\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "29c39faf-4cec-4949-aa95-e256f5b2f605",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your name: raj\n",
+      "enter your age: 15\n",
+      "enter your school name: Guru School\n",
+      "enter your degree: B.E CSE\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=(input(\"enter your name:\"))\n",
+    "age=int(input(\"enter your age:\"))\n",
+    "schoolname=(input(\"enter your school name:\"))\n",
+    "degree=(input(\"enter your degree:\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e54aa2a1-0e98-4309-9990-efd1f16ca618",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Addition"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "a600ef73-6867-4424-9179-3898b2619274",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value of a 43\n",
+      "enter the value of b 34\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "77\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"enter the value of a\"))\n",
+    "b=int(input(\"enter the value of b\"))\n",
+    "add=a+b\n",
+    "print(add)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b08c8c79-055b-401b-83ee-c501efc56787",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Subtraction"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "be5baa8a-efef-48dc-bc18-acd46e781df0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value of a 43\n",
+      "enter the value of b 34\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"enter the value of a\"))\n",
+    "b=int(input(\"enter the value of b\"))\n",
+    "sub=a-b\n",
+    "print(sub)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b166abe8-5064-4335-aa8a-121cf1a1a388",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#multiplication"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "fc34e827-9ef0-4109-b523-c13de67b66d2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value of a 63\n",
+      "enter the value of b 97\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6111\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"enter the value of a\"))\n",
+    "b=int(input(\"enter the value of b\"))\n",
+    "mul=a*b\n",
+    "print(mul)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "abad1f93-4db1-48f0-ab11-cf514e34a449",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value of a 76\n",
+      "enter the value of b 31\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2.4516129032258065\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"enter the value of a\"))\n",
+    "b=int(input(\"enter the value of b\"))\n",
+    "floatdiv=a/b\n",
+    "print(floatdiv)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "f6c2964c-b29f-4ab0-8277-0ed921a93feb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value of a 76\n",
+      "enter the value of b 31\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"enter the value of a\"))\n",
+    "b=int(input(\"enter the value of b\"))\n",
+    "floordiv=a//b\n",
+    "print(floordiv)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "03e19a4e-f1f4-47a1-aaf0-fd8a735a19c0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value of a 76\n",
+      "enter the value of b 31\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "14\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"enter the value of a\"))\n",
+    "b=int(input(\"enter the value of b\"))\n",
+    "modulo=a%b\n",
+    "print(modulo)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "d21f9b04-bba6-4562-b7ab-f066877c236a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value of a 4\n",
+      "enter the value of b 4\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "256\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"enter the value of a\"))\n",
+    "b=int(input(\"enter the value of b\"))\n",
+    "power=a**b\n",
+    "print(power)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "85cc1f5f-a66c-4989-854e-81a4376c3a12",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
